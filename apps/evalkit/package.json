@@ -1,0 +1,28 @@
+{
+  "name": "evalkit",
+  "version": "0.0.0",
+  "private": true,
+  "bin": {
+    "evalkit": "./dist/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "casekit-core": "workspace:*",
+    "commander": "15.0.0",
+    "diffkit": "workspace:*",
+    "dotenv": "^17.4.2",
+    "logger": "workspace:*",
+    "model-client": "workspace:*",
+    "reviewbot": "workspace:*",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2"
+  }
+}

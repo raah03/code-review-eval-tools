@@ -1,0 +1,102 @@
+{
+  "case_id": "case-900",
+  "source": {
+    "repo": "https://github.com/fixture/fixture-repo",
+    "commit": "__COMMIT__",
+    "base_commit": "__BASE__",
+    "commit_date": "2026-02-01",
+    "commit_subject": "feat: annotate types"
+  },
+  "injector": {
+    "model": "fixture",
+    "run_date": "2026-02-02"
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "category": "logic",
+      "file": "src/a.ts",
+      "edits": [
+        {
+          "file": "src/a.ts",
+          "find": "export const v10: number = 10;",
+          "replace": "export const v10: number = 10 as number;"
+        }
+      ],
+      "description": "F1 rewrites line 10",
+      "review": {
+        "verdict": "accept",
+        "reviewed_at": "2026-02-02"
+      }
+    },
+    {
+      "id": "F2",
+      "category": "security",
+      "file": "src/a.ts",
+      "edits": [
+        {
+          "file": "src/a.ts",
+          "find": "export const v30: number = 30;",
+          "replace": "export const v30: number = 30 as number;"
+        }
+      ],
+      "description": "F2 rewrites line 30",
+      "review": {
+        "verdict": "accept",
+        "reviewed_at": "2026-02-02"
+      }
+    },
+    {
+      "id": "F3",
+      "category": "smell",
+      "file": "src/a.ts",
+      "edits": [
+        {
+          "file": "src/a.ts",
+          "find": "export const v50: number = 50;",
+          "replace": "export const v50: number = 50 as number;"
+        }
+      ],
+      "description": "F3 rewrites line 50",
+      "review": {
+        "verdict": "accept",
+        "reviewed_at": "2026-02-02"
+      }
+    },
+    {
+      "id": "F4",
+      "category": "logic",
+      "file": "src/a.ts",
+      "edits": [
+        {
+          "file": "src/a.ts",
+          "find": "export const v70: number = 70;",
+          "replace": "export const v70: number = 70 as number;"
+        }
+      ],
+      "description": "F4 rewrites line 70",
+      "review": {
+        "verdict": "accept",
+        "reviewed_at": "2026-02-02"
+      }
+    },
+    {
+      "id": "F5",
+      "category": "clean",
+      "file": "src/a.ts",
+      "edits": [
+        {
+          "file": "src/a.ts",
+          "find": "export const v90: number = 90;",
+          "replace": "export const v90: number = 90 as number;"
+        }
+      ],
+      "description": "F5 rewrites line 90",
+      "review": {
+        "verdict": "accept",
+        "reviewed_at": "2026-02-02"
+      }
+    }
+  ],
+  "plan": null
+}

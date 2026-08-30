@@ -1,0 +1,3 @@
+{
+  "ignorePatterns": ["dist", "node_modules", "**/templates/**", "**/__snapshots__/**"]
+}

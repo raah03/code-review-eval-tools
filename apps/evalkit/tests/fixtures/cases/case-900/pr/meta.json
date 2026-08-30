@@ -1,0 +1,71 @@
+{
+  "id": "case-900",
+  "source": {
+    "repo": "https://github.com/fixture/fixture-repo",
+    "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "base_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "commit_date": "2026-02-01",
+    "commit_subject": "feat: fixture"
+  },
+  "language": "typescript",
+  "changed_lines_source_only": 1,
+  "iterations": [
+    {
+      "id": "i0",
+      "kind": "pull_request",
+      "active": ["F1"],
+      "changed_files": ["a.ts"],
+      "review_files": ["a.ts"],
+      "deleted": []
+    },
+    {
+      "id": "i1",
+      "kind": "fix",
+      "active": ["F1"],
+      "changed_files": ["a.ts"],
+      "review_files": ["a.ts"],
+      "deleted": []
+    },
+    {
+      "id": "i2",
+      "kind": "fix",
+      "active": ["F1"],
+      "changed_files": ["a.ts"],
+      "review_files": ["a.ts"],
+      "deleted": []
+    },
+    {
+      "id": "i3",
+      "kind": "fix",
+      "active": ["F1"],
+      "changed_files": ["a.ts"],
+      "review_files": ["a.ts"],
+      "deleted": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "category": "logic",
+      "file": "a.ts",
+      "locations": {
+        "i0": {
+          "status": "active",
+          "lines": [1, 1]
+        },
+        "i1": {
+          "status": "active",
+          "lines": [1, 1]
+        },
+        "i2": {
+          "status": "active",
+          "lines": [1, 1]
+        },
+        "i3": {
+          "status": "active",
+          "lines": [1, 1]
+        }
+      }
+    }
+  ]
+}

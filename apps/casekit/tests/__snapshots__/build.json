@@ -1,0 +1,91 @@
+{
+  "changed_lines_source_only": 200,
+  "iterations": [
+    {
+      "id": "i0",
+      "kind": "pull_request",
+      "active": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "changed_files": [
+        "src/a.ts"
+      ],
+      "review_files": [
+        "src/a.ts"
+      ],
+      "deleted": []
+    },
+    {
+      "id": "i1",
+      "kind": "fix",
+      "active": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "changed_files": [
+        "src/a.ts"
+      ],
+      "review_files": [
+        "src/a.ts"
+      ],
+      "deleted": []
+    },
+    {
+      "id": "i2",
+      "kind": "fix",
+      "active": [
+        "F3",
+        "F4"
+      ],
+      "changed_files": [
+        "src/a.ts"
+      ],
+      "review_files": [
+        "src/a.ts"
+      ],
+      "deleted": []
+    },
+    {
+      "id": "i3",
+      "kind": "cosmetic",
+      "active": [
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "changed_files": [
+        "src/a.ts"
+      ],
+      "review_files": [
+        "src/a.ts"
+      ],
+      "deleted": []
+    }
+  ],
+  "active_defect_lines": {
+    "i0": [
+      "export const v10: number = 10 as number;",
+      "export const v30: number = 30 as number;",
+      "export const v50: number = 50 as number;",
+      "export const v70: number = 70 as number;"
+    ],
+    "i1": [
+      "export const v30: number = 30 as number;",
+      "export const v50: number = 50 as number;",
+      "export const v70: number = 70 as number;"
+    ],
+    "i2": [
+      "export const v50: number = 50 as number;",
+      "export const v70: number = 70 as number;"
+    ],
+    "i3": [
+      "export const v50: number = 50 as number;",
+      "export const v70: number = 70 as number;",
+      "export const v90: number = 90 as number;"
+    ]
+  }
+}

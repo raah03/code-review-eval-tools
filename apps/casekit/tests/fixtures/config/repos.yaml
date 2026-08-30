@@ -1,0 +1,9 @@
+repos:
+  - id: fixture-repo
+    url: https://github.com/fixture/fixture-repo
+    license: MIT
+    attribution: fixture
+    lockfilePath: package.json
+    # no dependencies to install, so G1 stays a real typecheck without a package manager
+    installCommand: "true"
+    typecheckCommand: "__TSC__ --noEmit src/a.ts"

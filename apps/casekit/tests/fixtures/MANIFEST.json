@@ -1,0 +1,28 @@
+{
+  "dataset_version": "0.0.0-fixture",
+  "generated": "2026-02-01",
+  "training_cutoff_date": "2026-01-01",
+  "seed": 1234,
+  "repositories": [
+    {
+      "repo": "https://github.com/fixture/fixture-repo",
+      "license": "MIT",
+      "attribution": "fixture"
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-900",
+      "repo": "https://github.com/fixture/fixture-repo",
+      "gates": {
+        "typecheck": false,
+        "sizeband": false,
+        "locations": false,
+        "transitions": false,
+        "disjoint": false,
+        "twoDefects": false,
+        "reviewed": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "i0",
+    "kind": "pull_request",
+    "active": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "i1",
+    "kind": "fix",
+    "active": [
+      "F2",
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "i2",
+    "kind": "fix",
+    "active": [
+      "F3",
+      "F4"
+    ]
+  },
+  {
+    "id": "i3",
+    "kind": "cosmetic",
+    "active": [
+      "F3",
+      "F4",
+      "F5"
+    ]
+  }
+]

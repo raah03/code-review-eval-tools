@@ -1,0 +1,31 @@
+{
+  "name": "casekit",
+  "version": "0.0.0",
+  "private": true,
+  "bin": {
+    "casekit": "./dist/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "casekit-core": "workspace:*",
+    "casekit-schema": "workspace:*",
+    "commander": "15.0.0",
+    "diffkit": "workspace:*",
+    "dotenv": "^17.4.2",
+    "logger": "workspace:*",
+    "model-client": "workspace:*",
+    "octokit": "^5.0.5",
+    "ts-morph": "28.0.0",
+    "typescript": "7.0.2",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.2"
+  }
+}

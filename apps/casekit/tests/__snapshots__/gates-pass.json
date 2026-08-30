@@ -1,0 +1,9 @@
+{
+  "typecheck": true,
+  "sizeband": true,
+  "locations": true,
+  "transitions": true,
+  "disjoint": true,
+  "twoDefects": true,
+  "reviewed": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "model-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.27",
+    "@ai-sdk/openai": "^4.0.23",
+    "@openrouter/ai-sdk-provider": "^3.0.0",
+    "ai": "^7.0.41",
+    "mustache": "4.2.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/mustache": "4.2.6",
+    "@types/node": "26.1.2"
+  }
+}
